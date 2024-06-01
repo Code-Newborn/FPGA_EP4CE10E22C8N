@@ -8,6 +8,9 @@
 **/db/
 **/incremental_db/
 
+!*.sof
+!*.jic
+
 # project files
 !*.qpf
 !*.qsf
