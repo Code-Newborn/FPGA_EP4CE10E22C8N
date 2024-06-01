@@ -1,0 +1,68 @@
+*.*
+!/*.gitignore
+
+!*.md
+
+# ignore Quartus generated folders
+
+**/db/
+**/incremental_db/
+
+# project files
+!*.qpf
+!*.qsf
+# source files
+!*.bdf
+!*.vhd
+!*.v
+!*.sv
+# IP core files
+!*.qip
+!*.sip
+!*.bsf
+# SOPC builder project source files
+!*.ptf
+!*.bsf
+# board description
+!**/class.ptf
+# sdc files:
+!*.sdc
+# tcl files:
+!*.tcl
+
+ 
+*.hdb
+*.cdb
+*.tdf
+*.ddb
+*.qmsg
+*.hsd
+*.rdb
+*.ammdb
+*.bpm
+*.tdb
+*.hier_info
+*.db_info
+*.hif
+*.idb
+*.ipinfo
+*.kpt
+*.logdb
+*.sci
+*.syn_hier_info
+*.Xm1
+*.rpt
+*.wlf
+*.sdo
+*.V0
+*.xrf
+*.dbs
+*.psm
+*.qws
+*.sft
+JLinkLog.txt
+*.iex
+*.htm
+*.sct
+*.map
+*.bak
