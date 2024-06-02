@@ -20,7 +20,7 @@ module KEY (
     reg  k3_out_reg;
     reg  k4_out_reg;
 
-    delay_soft key_delay_1 (
+    delay_soft key_delay_1 (  // 软件延迟消抖
         .clk (clk),
         .kin (k1_in),
         .kout(k1_out)

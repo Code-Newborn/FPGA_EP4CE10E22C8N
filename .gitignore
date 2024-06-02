@@ -3,6 +3,10 @@
 
 !*.md
 
+*_info
+*vmake
+*_transcript
+
 # ignore Quartus generated folders
 
 **/db/
